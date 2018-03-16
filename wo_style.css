@@ -1,0 +1,1415 @@
+/* Remote CSS from https://api.github.com/repos/arvindsinghu/WordCampDelhi/contents/include.css */
+.wcu-table-hotels-list a {
+	box-shadow: none;
+}
+
+.wcu-table-hotels-list .tripadvisor-rating {
+	background: #8BC34A;
+	color: #fff;
+	display: inline-block;
+	padding: 1px 8px;
+	line-height: 1.5;
+	font-size: 14px;
+	min-width: 35px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+table,
+th,
+td {
+	border: 1px solid #d1d1d1;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.75em;
+	table-layout: fixed;
+/* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	padding: .4375em;
+}
+
+/* Custom CSS from 2017.delhi.wordcamp.org */
+/* WordCamp Delhi 2017 */
+div.wrap {
+	max-width: 1150px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+}
+
+/* Footer Area */
+.site-footer {
+	background-color: #05a8f3;
+	color: white;
+	font-size: 24px;
+}
+
+.site-footer a {
+	color: white;
+}
+
+/* Header Area */
+.site-info {
+	margin: auto;
+	text-align: center;
+	float: none;
+}
+
+div.site-branding-text {
+	text-align: center;
+}
+
+button, input[type="button"], input[type="submit"] {
+	background-color: #ff4020;
+}
+
+div.entry-content {
+	float: none;
+	width: 100%;
+}
+
+header.entry-header {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+/* Sponsors Page */
+body.page:not(.twentyseventeen-front-page) .entry-title {
+	font-size: 2em;
+}
+
+.wcorg-sponsor-level-gold h2 {
+	border-left: 8px solid #05a8f3;
+	line-height: 2em;
+	padding-left: 8px;
+	background-color: #e8e5e5;
+}
+
+.wcorg-sponsor-level-silver h2 {
+	border-left: 8px solid #05a8f3;
+	line-height: 2em;
+	padding-left: 8px;
+	background-color: #e8e5e5;
+}
+
+.wcorg-sponsor-level-bronze h2 {
+	border-left: 8px solid #05a8f3;
+	line-height: 2em;
+	padding-left: 8px;
+	background-color: #e8e5e5;
+}
+
+/* Widgets */
+h2.widget-title {
+	padding-bottom: 18px;
+	padding-top: 18px;
+	text-align: center;
+	letter-spacing: .1em;
+	font-size: 14px;
+	font-weight: 300px;
+}
+
+div.entry-content {
+	float: none !important;
+	width: 100% !important;
+}
+
+header.entry-header {
+	float: none !important;
+	width: 100% !important;
+}
+
+a.more-link {
+	color: #ff4020;
+}
+
+.custom-logo-link img {
+	max-height: 300px;
+	max-width: 100%;
+}
+
+.site-branding {
+	text-align: center;
+}
+
+/* Menu */
+nav#site-navigation.main-navigation ul {
+	text-align: center;
+}
+
+/* Front Page */
+.panel-content .wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 100%;
+}
+
+/* About Section */
+div.about_section1 {
+	padding: 6em 0;
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/the-audience-1254036_1920.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+div.about_container {
+	overflow: hidden;
+}
+
+div.about_content1 {
+	background-color: white;
+	width: 60%;
+	padding: 5em 4em;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+	div.about_content1 {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+div.about_float1 {
+	background-color: white;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+h2#woramp_head10 {
+	font-size: 44px;
+}
+
+/* Delhi City Section */
+div.delhi_city {
+	padding: 6em 3em 3em;
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/City-Delhi.jpg');
+	background-repeat: no-repeat;
+	background-attachment: cover;
+	position: relative;
+	background-color: white;
+}
+
+div.delhi_container {
+	position: relative;
+}
+
+div.delhi_info {
+	background-color: white;
+	width: 60%;
+	padding: 5em 4em;
+	margin-bottom: 3em;
+	position: relative;
+	right: -27em;
+	z-index: 1;
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+	div.delhi_info {
+		position: relative;
+		right: 1em;
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	
+	div.delhi_city {
+		padding-right: 0;
+	}
+}
+
+div.delhi_down {
+	background-color: white;
+	width: 40%;
+	padding: 3em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+
+h2#delhi_head111 {
+	font-size: 44px;
+}
+
+/* Venue Section */
+div.venue_section2 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/WordCamp-Venue.jpg');
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 7em 0;
+	background-position: 390px 0;
+}
+
+div.venue_content2 {
+	background-color: white;
+	padding: 5em 4em;
+	font-size: 18px;
+	width: 60%;
+	position: relative;
+	z-index: 1;
+}
+
+h2#venue_head22 {
+	font-size: 44px;
+}
+
+div.venue_float {
+	width: 40%;
+	background-color: white;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	div.venue_content2 {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+/* Sponsors Section */
+div.sponsors_section3 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/Sponsors-area.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 5em 2em 2em;
+	position: relative;
+}
+
+div.sponsors_content3 {
+	background-color: white;
+	width: 100%;
+	padding: 6em 2em;
+	font-size: 18px;
+	margin-bottom: 3em;
+	position: relative;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 920px) {
+	div.sponsors_content3 {
+		position: relative;
+		right: 1em;
+		padding-left: 2em;
+		padding-right: 2em;
+		width: 100%;
+	}
+}
+
+h2#logo_palace3 {
+	font-size: 46px;
+	text-align: center;
+}
+
+div.sponsors_content3 img {
+	display: inline-block;
+}
+
+/* Speakers Section */
+div.speakers_section4 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/Speakers.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 7em 0;
+}
+
+div.speakers_content4 {
+	background-color: white;
+	padding: 5em 4em;
+	font-size: 18px;
+	width: 60%;
+	position: relative;
+	z-index: 1;
+}
+
+div.speakers_float {
+	background-color: white;
+	width: 40%;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	div.speakers_content4 {
+		padding-left: 2em;
+		padding-right: 2em;
+		width: 100%;
+	}
+}
+
+h2#speaker_head4 {
+	font-size: 44px;
+	text-align: left;
+}
+
+/* Our Blog Section */
+div.blog_section5 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/student-849825_1920.jpg');
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 7em 0 5em;
+}
+
+div.blog_content5 {
+	background-color: white;
+	width: 60%;
+	padding: 6em 4em 5em;
+	font-size: 18px;
+	margin-bottom: 3em;
+	position: relative;
+	right: -30em;
+	z-index: 1;
+}
+
+h2#blog_head5 {
+	font-size: 44px;
+}
+
+/* Read More Button Home */
+body.home a.read_home66 {
+	color: #ff4020;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+div.blog_float5 {
+	padding: 4em;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	div.blog_content5 {
+		position: relative;
+		right: 1em;
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+/* Subsrciption Box Home */
+div.subs_123 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/subscribe.jpg');
+	padding: 1em;
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+/* Jetpack Home */
+body.home div.jetpack_subscription_widget {
+	width: 40%;
+	margin: 0 auto;
+	padding: 4em 1em;
+}
+
+body.home p#subscribe-submit {
+	text-align: center;
+}
+
+body.home input[type="submit"] {
+	background-color: #752b2b;
+	padding: 15px 40px;
+}
+
+body.home input[type="submit"]:hover {
+	background-color: #ff4020;
+}
+
+body.home .widgettitle {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/* Logo Section Footer */
+div.logo_home_down {
+	width: 70%;
+	margin: 2em auto;
+	border-bottom: 2px solid grey;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+}
+
+div.logo_footer2 {
+	float: left;
+	width: 50%;
+	margin: 1px;
+	padding-right: 2px;
+}
+
+div.hashtagwc {
+	float: left;
+	width: 48%;
+	margin: 0;
+	font-size: 56px;
+	border-left: 2px solid #dee0e2;
+	padding-left: 2em;
+	line-height: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+	div.logo_footer2 {
+		float: none;
+		width: 100%;
+	}
+	
+	div.hashtagwc {
+		float: none;
+		line-height: 1em;
+		border: none;
+		font-size: 32px;
+	}
+	
+	div.logo_home_down {
+		width: 100%;
+	}
+}
+
+body.home .site-footer {
+	background-color: #752b2b;
+	margin-top: 0;
+}
+
+div.copyright_11 {
+	font-size: 18px;
+	text-align: center;
+	padding: 1.5em 1em;
+	border-top: 2px solid #dee0e2;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Header Background */
+.custom-header-media:before {
+	background: none;
+}
+
+/* Mobile SUbscribe Button */
+@media only screen and (max-width: 550px) {
+	body.home div.jetpack_subscription_widget h2 {
+		text-align: left;
+	}
+	
+	div.jetpack_subscription_widget #subscribe-email input {
+		padding-right: 25px;
+	}
+	
+	body.home div.jetpack_subscription_widget {
+		width: 95%;
+	}
+}
+
+/* Header Title */
+.site-branding-text h1.site-title {
+	font-size: 4em;
+}
+
+.site-branding-text {
+	padding-bottom: 4em;
+	font-family: georgia;
+}
+
+@media only screen and (max-width: 768px) {
+	.site-branding-text h1.site-title {
+		font-size: 3em;
+	}
+	
+	.site-branding-text h1.site-title a {
+		color: black;
+	}
+}
+
+.site-branding-text h1.site-title a {
+	color: black;
+}
+
+.site-branding-text .site-description {
+	font-size: 2em;
+}
+
+body.home header.entry-header {
+	visibility: hidden;
+}
+
+body.home p.site-description {
+	color: black;
+}
+
+/* Home Ticket Section */
+div.ticket_section66 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/06/Buy-tickets.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 5em 2em;
+}
+
+div.ticket_content6 {
+	background-color: white;
+	padding: 5em 3em;
+	font-size: 18px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+h2#ticket_heading66 {
+	font-size: 46px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	div.ticket_content6 {
+		width: 100%;
+		padding: 2em;
+	}
+}
+
+/* Read More Home Button */
+body.home a.read_home66 {
+	text-decoration: none;
+	padding: 1em;
+	border: 1px solid #85858b;
+	border-radius: 50px;
+}
+
+body.home a.read_home66:hover {
+	background-color: #682525;
+	color: white;
+}
+
+/* Organizers */
+body.page-slug-organizers div.wrap {
+	max-width: 1040px;
+}
+
+div.org_box1 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-right: 20px;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+
+div.org_box2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-right: 20px;
+	padding-bottom: 7px;
+	margin-bottom: 60px;
+}
+
+div.org_box3 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-right: 20px;
+	padding-bottom: 3px;
+	margin-bottom: 60px;
+}
+
+img#ravi_fb {
+	padding-right: 5px;
+}
+
+body.page-slug-organizers div.wrap h1.entry-title {
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 920px) {
+	div.org_box1 {
+		padding-left: 10px;
+	}
+	
+	div.org_box2 {
+		padding-left: 10px;
+	}
+	
+	div.org_box3 {
+		padding-left: 10px;
+	}
+}
+
+img#ar_fb {
+	margin-right: 5px;
+}
+
+img#sb_fb {
+	padding-right: 5px;
+}
+
+img#sb_tw {
+	padding-right: 5px;
+}
+
+img#ravi_tw {
+	padding-right: 5px;
+}
+
+/* menu icon css -krishaweb  */
+.main-navigation a::before {
+	font-family: Dashicons;
+	margin: 0 5px;
+	font-weight: normal;
+}
+
+#menu-item-625 > a::before {
+	content: "\f102";
+}
+
+#menu-item-1332 > a::before {
+	content: "\f486";
+}
+
+#menu-item-627 > a::before {
+	content: "\f119";
+}
+
+#menu-item-480 > a::before {
+	content: "\f307";
+}
+
+#menu-item-476 a::before {
+	content: "\f487";
+}
+
+#menu-item-581 a::before {
+	content: "\f488";
+}
+
+#menu-item-116 a::before {
+	content: "\f466";
+}
+
+/* Attendees */
+@media screen and (max-width: 600px) {
+	#tix-attendees .tix-columns-3 li {
+		width: 100%;
+	}
+}
+
+#tix-attendees .tix-columns-3 li {
+	padding: 5px;
+}
+
+#tix-attendees .tix-field {
+	box-shadow: none;
+}
+
+/* Organizer Daman */
+div.org_box4 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-right: 20px;
+	padding-bottom: 1px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+
+@media only screen and (max-width: 920px) {
+	div.org_box4 {
+		padding-left: 10px;
+	}
+}
+
+div.org_box4 img#daman_tw {
+	margin-right: 5px;
+}
+
+div.org_box4 img#daman_fb {
+	margin-right: 5px;
+}
+
+.wcb_widget_sponsors .sponsor-logo {
+	text-align: center;
+	margin-bottom: 15px;
+	box-shadow: 0 0 0 0;
+	-webkit-box-shadow: 0 0 0 0;
+	-moz-box-shadow: 0 0 0 0;
+}
+
+.wcb_widget_sponsors a.sponsor-logo, .wcb_widget_sponsors a.sponsor-logo:hover, .wcb_widget_sponsors a.sponsor-logo:active, .wcb_widget_sponsors a.sponsor-logo:focus {
+	box-shadow: 0 0 0 0;
+	-webkit-box-shadow: 0 0 0 0;
+	-moz-box-shadow: 0 0 0 0;
+}
+
+div.about_section1, div.delhi_city, div.venue_section2, div.blog_section5, div.speakers_section4, div.ticket_section66, div.sponsors_section3 {
+	background-size: cover;
+	background-position: 0 0;
+}
+
+div.about_float1, div.venue_float, div.blog_float5, div.delhi_down, div.speakers_float {
+	background-color: transparent;
+}
+
+div.delhi_info, div.blog_content5 {
+	right: 0;
+	position: relative;
+	left: auto;
+	float: right;
+}
+
+div.delhi_city {
+	padding: 6em 0 3em;
+}
+
+.delhi_city:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.blog_section5:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div.about_content1, div.delhi_info, div.venue_content2, div.blog_content5, div.speakers_content4 {
+	opacity: .9;
+}
+
+div.ticket_content6, div.sponsors_content3 {
+	opacity: .95;
+}
+
+div.venue_section2 {
+	background-image: url('https://2017.delhi.wordcamp.org/files/2017/07/WordCamp-Venue-1.jpg') !important;
+}
+
+.site-footer .widget-area {
+	width: 60%;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@media screen and (min-width: 48em) {
+	.site-footer .widget-column.footer-widget-1 {
+		width: 50%;
+	}
+	
+	.navigation-top {
+		bottom: inherit;
+		top: 0;
+		max-height: 74px;
+	}
+	
+	.navigation-top .wrap {
+		max-width: 1040px;
+	}
+	
+	.navigation-top.site-navigation-fixed .icon_middle {
+		background-size: 50%;
+		background-position: center top;
+	}
+	
+	.navigation-top.site-navigation-fixed li.icon_middle a {
+		height: 67px;
+	}
+	
+	.site-header .navigation-top .menu-scroll-down {
+		display: none;
+	}
+}
+
+.social_icons {
+	float: left;
+}
+
+.site-info {
+	margin: auto;
+	text-align: right;
+	float: right;
+	width: auto;
+}
+
+section#custom_html-3 {
+	padding-bottom: 0;
+}
+
+.widget .social_icons a img, .widget .social_icons a {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.widget .social_icons a {
+	margin-right: 15px;
+}
+
+.page-template-default.has-header-image .custom-header-media img:not(.home) {
+	object-position: 50% 80%;
+}
+
+.site-branding:not(.home) {
+	padding: 5em 0;
+}
+
+.blog.has-header-image .custom-header-media img:not(.home) {
+	object-position: 50% 80%;
+}
+
+.post-template-default.has-header-image .custom-header-media img:not(.home) {
+	object-position: 50% 80%;
+}
+
+.site-branding-text:not(.home) {
+	margin-top: 12em;
+	padding-bottom: 2em;
+}
+
+.navigation-top li.icon_middle {
+	width: 158px;
+	height: 128px;
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/wocalogo.png');
+	top: -8px;
+	background-repeat: no-repeat;
+}
+
+.navigation-top li.icon_middle a {
+	display: inline-block;
+	color: transparent;
+	width: 158px;
+	height: 128px;
+}
+
+@media screen and (min-width: 30em) {
+	.panel-content .entry-header {
+		margin-bottom: 0;
+	}
+}
+
+.home header.entry-header .entry-title {
+	display: none;
+}
+
+.blog_section5 .blog_content5 .home_blog_title {
+	padding-top: 0;
+	padding: 15px 0 15px 30px;
+	border-left: 2px solid #ff4020;
+}
+
+.blog_section5 .blog_content5 .home_blog_title a, a.view_all_link {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.blog_section5 .blog_content5 .home_blog_title a:hover, a.view_all_link:hover {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.blog_section5 .blog_content5 a.view_all_link {
+	margin-top: 10px;
+	display: block;
+	padding: 15px 0 0 30px;
+	margin-bottom: 0;
+}
+
+span.home_blog_dt {
+	font-size: 14px;
+	padding-left: 30px;
+	display: block;
+}
+
+@media screen and (max-width: 480px) {
+	.speaker_name img {
+		display: block;
+		clear: both;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.navigation-top li.icon_middle {
+		display: none;
+	}
+	
+	.main-navigation a {
+		padding: 1em .5em;
+	}
+}
+
+@media (min-width:992px) and (max-width:1080px) {
+	.main-navigation a {
+		padding: 1em .8em;
+	}
+}
+
+@media (min-width:768px) {
+	.custom-header {
+		margin-bottom: 0 !important;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.site-branding-text:not(.home) {
+		padding-top: 4em;
+	}
+	
+	.navigation-top li.icon_middle {
+		display: none;
+	}
+	
+	.speaker_sec {
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	
+	.speaker_sec .speaker_pic {
+		width: 100% !important;
+		padding-right: 0 !important;
+		margin-bottom: 10px;
+		float: none !important;
+		text-align: center;
+	}
+	
+	.speaker_sec .speaker_content {
+		width: 100% !important;
+		float: none !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	.speaker_sec .speaker_content h1.speaker_name {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.speaker_sec {
+	width: 100%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.speaker_sec .speaker_pic {
+	width: 25%;
+	padding-right: 15px;
+	float: left;
+}
+
+.speaker_sec .speaker_content {
+	width: 75%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.single-featured-image-header {
+	padding: 20px 0;
+}
+
+div.org_box3 {
+	padding-bottom: 28px;
+}
+
+div.org_box3, div.org_box2, div.org_box1 {
+	padding-top: 30px;
+	padding-bottom: 55px;
+}
+
+table.wpcamp-schedule {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+	font-size: 16px;
+	line-height: 24px;
+	color: #222222;
+}
+
+.table__head {
+	border-bottom: 2px solid #bbb;
+	padding-bottom: .5em;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+
+table.wpcamp-schedule tr {
+	border-bottom: 1px solid #eee;
+}
+
+table.wpcamp-schedule td {
+	padding: 12px 6px;
+}
+
+table.wpcamp-schedule td.title {
+	font-weight: bold;
+	text-align: center;
+}
+
+table.wpcamp-schedule td a {
+	color: #222222;
+	text-decoration: none;
+	border-bottom: 1px solid #222222;
+}
+
+table.wpcamp-schedule td a:hover {
+	border-bottom: 1px solid #222222;
+}
+
+table.wpcamp-schedule td:nth-child(1) {
+	width: 10%;
+}
+
+table.wpcamp-schedule td:nth-child(2) {
+	width: 41%;
+}
+
+table.wpcamp-schedule td:nth-child(3) {
+	width: 41%;
+}
+
+@media (max-width: 768px) {
+	.wpcamp-schedule table, .wpcamp-schedule thead, .wpcamp-schedule tbody, .wpcamp-schedule th, .wpcamp-schedule td, .wpcamp-schedule tr {
+		display: block;
+	}
+	
+	table.wpcamp-schedule tr:nth-child(3) {
+		display: none;
+	}
+	
+	.wpcamp-schedule thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.wpcamp-schedule  tr {
+		border: 1px solid #eee;
+	}
+	
+	.wpcamp-schedule  td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30% !important;
+	}
+	
+	.wpcamp-schedule td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 15%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	table.wpcamp-schedule td.title {
+		font-weight: normal;
+		text-align: left;
+	}
+	
+	table.wpcamp-schedule td:nth-of-type(1):before {
+		content: "Slot";
+		font-weight: bold;
+	}
+	
+	table.wpcamp-schedule td:nth-of-type(2):before {
+		content: "Track 1";
+		font-weight: bold;
+	}
+	
+	table.wpcamp-schedule td:nth-of-type(3):before {
+		content: "Track 2";
+		font-weight: bold;
+	}
+	
+	table.wpcamp-schedule td:nth-child(1) {
+		width: 100%;
+	}
+	
+	table.wpcamp-schedule td:nth-child(2) {
+		width: 100%;
+	}
+	
+	table.wpcamp-schedule td:nth-child(3) {
+		width: 100%;
+	}
+}
+
+p:empty {
+	display: none;
+}
+
+/* WPJIT  */
+#section-1 .column {
+	background-color: white;
+	width: 60%;
+	padding: 5em 4em;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+	opacity: .9;
+}
+
+#section-1 {
+	background-size: cover;
+	padding: 6em 0;
+}
+
+.section_1 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/1.jpg');
+}
+
+#section-1 .column a {
+	background: #ddd;
+	padding: 10px 22px;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	box-shadow: 1px 1px 2px #ddd;
+	font-size: 14px;
+}
+
+#section-1 .column a:hover {
+	background: #1e5540;
+	color: #fff;
+}
+
+/* Section 2 starts */
+#section-2 .column {
+	background-color: white;
+	width: 60%;
+	padding: 5em 4em;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+	opacity: .9;
+	float: right;
+}
+
+#section-2 {
+	background-size: cover;
+	opacity: .9;
+	clear: both;
+	height: auto;
+	overflow: hidden;
+	padding: 6em 0;
+}
+
+.section_2 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/03/wordcamp-website-karachi.jpg');
+}
+
+#section-2 .column a {
+	background: #ddd;
+	padding: 10px 22px;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	box-shadow: 1px 1px 2px #ddd;
+	font-size: 14px;
+}
+
+#section-2 .column a:hover {
+	background: #1e5540;
+	color: #fff;
+}
+
+/*SECTION FULL START HERE*/
+#section-full {
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 5em 2em;
+}
+
+.column-full {
+	background-color: white;
+	padding: 5em 3em;
+	font-size: 18px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	opacity: .9;
+}
+
+.anotherfull img {
+	padding-bottom: 30px;
+	margin-right: 50px;
+}
+
+#section-full-transparent {
+	width: 70%;
+	margin: 2em auto;
+	border-bottom: 2px solid #dee0e2;
+	height: auto;
+	overflow: hidden;
+}
+
+.left-column {
+	float: left;
+	width: 50%;
+	margin: 1px;
+	padding: 40px 20px;
+	border-right: 2px solid #dee0e2;
+}
+
+.right-column {
+	float: left;
+	width: 48%;
+	margin: 0;
+}
+
+.right-column h1 {
+	font-size: 56px;
+	padding-left: 2em;
+	line-height: 3em;
+}
+
+.site-branding-text {
+	background: rgba(255,255,255,0.6);
+	padding: 50px 30px;
+}
+
+#menu-item-156 > a::before {
+	content: "\f102";
+}
+
+#menu-item-155 > a::before {
+	content: "\f486";
+}
+
+#menu-item-158 > a::before {
+	content: "\f119";
+}
+
+#menu-item-164 > a::before {
+	content: "\f307";
+}
+
+#menu-item-160 a::before {
+	content: "\f487";
+}
+
+#menu-item-159 a::before {
+	content: "\f466";
+}
+
+.widget {
+	padding-bottom: 0 !important;
+}
+
+.widget_wpcom_social_media_icons_widget ul li a {
+	font-size: 31px;
+	text-decoration: none !important;
+	border: none;
+	box-shadow: none !important;
+	margin-right: 15px;
+}
+
+.site-title a {
+	color: #000 !important;
+}
+
+.site-description {
+	color: #000 !important;
+}
+
+#media_image-2 img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#secondary {
+	text-align: center;
+}
+
+#wp-custom-header img {
+	margin-top: 75px;
+}
+
+.section_1 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/03/600_467586083.jpeg');
+}
+
+.section_3 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/333.jpg');
+}
+
+.section_4 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/blog.jpg');
+}
+
+.section_4 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/blog.jpg');
+}
+
+.section_5 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/speakers.jpg');
+}
+
+.section_6 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/tickets.jpg');
+}
+
+.section_7 {
+	background-image: url('https://2018.karachi.wordcamp.org/files/2018/02/sponsors.jpg');
+}
